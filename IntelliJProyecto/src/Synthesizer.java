@@ -1,14 +1,13 @@
 import javax.swing.*;
 
-public class Synthesizer {
-    private JFrame frame = new JFrame("FMSynth");
-    Synthesizer()
+public class Synthesizer extends JFrame {
+    public Synthesizer()
     {
-        frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-        frame.setSize(1000, 700);
-        frame.setResizable(false);
-        frame.setLayout(null);
-        frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
+        setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+        setSize(1000, 700);
+        setResizable(false);
+        setLayout(null);
+        setLocationRelativeTo(null);
+        setVisible(true);
     }
 }
